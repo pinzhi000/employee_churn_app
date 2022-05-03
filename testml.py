@@ -21,7 +21,7 @@ if app_mode == 'Home':
     df = pd.read_csv(path + '/emp_analytics.csv')
     st.write(df.head())
 
-
+    # page 2: prediction page -- interaction with algo 
 elif app_mode == 'Predict_Churn':
 
     st.subheader("Fill in employee details to get prediction")
